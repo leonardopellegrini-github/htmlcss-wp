@@ -1,0 +1,142 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body{
+  width: 80%;
+  font-family: Montserrat;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 100%;
+}
+
+/* HEADER */
+
+.header-top{
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+.header-top > div{
+  float: left;
+}
+
+.logo img{
+  width: 50%;
+  margin-bottom: 20px;
+  padding-right: 8px;
+  border-right: 2px solid #989898;;
+  ;
+}
+
+.menu{
+  width: 100%;
+}
+
+.top-right{
+  width: 10%;
+  text-align: right;
+}
+
+/* MENU */
+
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a{
+  font-weight: 500;
+  color: #989898;;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover{
+  color: #890000;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+  background-image: url('../img/maxw-960.webp');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.jumbotron .text{
+  padding-top: 22%;
+  padding-left: 87px;
+}
+
+.jumbotron p{
+  width: 60%;
+}
+
+.jumbotron .text h3{
+  font-size: 2rem;
+}
+
+/* MAIN */
+
+main h1{
+  margin-bottom: 15px;
+}
+
+.main-col{
+  float: left;
+  width: 70%;
+}
+
+.main-col img{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.main-col p{
+  text-align: justify;
+}
+
+aside{
+  float: left;
+  width: 30%;
+  padding-left: 15px;
+}
+
+aside .box{
+  background-color: orange;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
