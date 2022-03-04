@@ -77,6 +77,7 @@ nav ul li a:hover{
 .overlay{
   background-color: rgba(0, 0, 0, 0.25);
   height: 100%;
+  border-radius: 10px;
 }
 
 /* JUMBOTRON */
@@ -114,8 +115,7 @@ main h1{
 
 .colonna{
   float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
 }
 .centrale{
   width: 60%;
@@ -140,6 +140,10 @@ main h1{
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 10px;
+}
+
+.colonna::before{
+  background-color: rgba(0, 0, 0, 0.37);
 }
 
 .sinistra > .box{
